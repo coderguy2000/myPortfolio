@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>side bar</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+	<script type="text/javascript" src="portfolio.js"></script>
+	
+</head>
+<body>
+	<div class="header">The &nbsp; Coder - Jatin Aggarwal</div>
+	<div id="hamburger-menu" onclick="navigation()">&#9776;</div>
+	<div id="drawing-bar">
+		<div class="cross" onclick="navigation()">&#9986;</div>
+		<div class="drawing-bar-content">
+			<ul>
+				<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+				<li><a href="#"><i class="fa fa-code" aria-hidden="true"></i>Projects</a></li>
+				<li><a href="#"><i class="fa fa-code" aria-hidden="true"></i>Skills</a></li>
+				<li><a href="#"><i class="fa fa-code" aria-hidden="true"></i>Competitive Platform</a></li>
+				<li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>Contacts</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="image-area">
+		<img id="image-area-content" src="images/lion.jpg">
+		<i class="fa fa-angle-left" id="left" onclick="photo_change('left')"></i>
+		<i class="fa fa-angle-right" id ="right" onclick="photo_change('right')"></i>
+	</div>
+	<!-- <i class="fa fa-camera-retro fa-lg"></i> fa-lg -->
+	
+
+	<div class="main-blk">
+		<div class="main-blk-heading">
+			<span id="first" onclick="open_main_blk(1)">School</span>
+			<span id="second" onclick="open_main_blk(2)">Intermediate</span>
+			<span id="third" onclick="open_main_blk(3)">College</span>
+		</div>
+		<div id="first-content" >Shiv Public Sr. Sec School Sohna <br>X:9.8 CGPA<br>XII:88.6%</div>
+		<div id="second-content" >FIITJEE<br>Jee Main:28848 Rank</div>
+		<div id="third-content" >IIIT Sonepat<br>
+			1st sem:8.86 CGPA<br>2nd Sem:9.4 CGPA</div>
+	</div>
+
+	<div class="project">
+		<div class="project-content"><div><img src="images/laptop.jpg"></img><h3>Github Link</h3></div></div>
+		<div class="project-content"><div><img src="images/movies.jpg"></img><h3>Github Link</h3></div></div>
+		<div class="project-content"><div><img src="images/bird.jpg"></img><h3>Github Link</h3></div></div>
+		<div class="project-content"><div><img src="images/disney.jpg"></img><h3>Github Link</h3></div></div>
+		<div class="project-content"><div><img src="images/moon.jpg"></img><h3>Github Link</h3></div></div>
+		<div class="project-content"><div><img src="images/38765.jpg"></img><h3>Github Link</h3></div></div>
+	</div>
+	
+</body>
+</html>
+
